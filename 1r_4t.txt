@@ -1,0 +1,728 @@
+Script started on Wed Apr 28 23:43:04 2021
+bash: Studio: command not found
+[?1034hbash-3.2$ ./main 1 4
+initialized
+2 
+
+2 
+
+0 
+0 
+0 
+0 
+
+0 
+0 
+0 
+0 
+
+2 
+2 
+0 
+2 
+
+creating thread 0
+creating thread 1
+creating thread 2
+creating thread 3
+thread 1's request: thread 3's request: thread 2's request: thread 0's request: 0 
+
+0 
+
+thread 2 requested 0 times
+1 
+
+thread 1 requesting resource 0
+thread 3 requested 0 times
+1 
+
+thread 0 requesting resource 0
+thread 1 waiting for resource 0
+thread 0 waiting for resource 0
+thread 0 granted resource 0
+thread 1 waiting for resource 0
+thread 2's request: 0 
+
+thread 2 requested 0 times
+thread 1 waiting for resource 0
+thread 0's request: 1 
+
+thread 0 requesting resource 0
+thread 0 waiting for resource 0
+thread 0 granted resource 0
+thread 1 waiting for resource 0
+thread 3's request: 1 
+
+thread 3 requesting resource 0
+thread 3 waiting for resource 0
+thread 3 granted resource 0
+thread 1 waiting for resource 0
+thread 2's request: 0 
+
+thread 2 requested 0 times
+thread 1 waiting for resource 0
+thread 0's request: 1 
+
+thread 0 requesting resource 0
+thread 0 waiting for resource 0
+thread 0 granted resource 0
+thread 1 waiting for resource 0
+thread 0's request: 1 
+
+thread 0 requesting resource 0
+thread 0 waiting for resource 0
+thread 0 granted resource 0
+thread 1 waiting for resource 0
+thread 3's request: 1 
+
+thread 3 requesting resource 0
+thread 3 waiting for resource 0
+thread 3 granted resource 0
+thread 1 waiting for resource 0
+thread 2's request: 0 
+
+thread 2 requested 0 times
+thread 1 waiting for resource 0
+thread 2's request: 0 
+
+thread 2 requested 0 times
+thread 1 waiting for resource 0
+thread 3's request: 1 
+
+thread 3 requesting resource 0
+thread 3 waiting for resource 0
+thread 3 granted resource 0
+thread 1 waiting for resource 0
+thread 2's request: 0 
+
+thread 2 requested 0 times
+thread 1 waiting for resource 0
+thread 0's request: 1 
+
+thread 0 requesting resource 0
+thread 0 waiting for resource 0
+thread 0 granted resource 0
+thread 0 requested 5 times
+thread 1 waiting for resource 0
+thread 2's request: 0 
+
+thread 2 requested 0 times
+thread 1 waiting for resource 0
+thread 3's request: 1 
+
+thread 3 requesting resource 0
+thread 3 waiting for resource 0
+thread 3 granted resource 0
+thread 1 waiting for resource 0
+thread 0's request: 0 
+
+thread 0 requested 5 times
+thread 1 waiting for resource 0
+thread 0's request: 1 
+
+thread 0 requesting resource 0
+thread 0 waiting for resource 0
+thread 0 granted resource 0
+thread 1 waiting for resource 0
+thread 0's request: 0 
+
+thread 1 waiting for resource 0
+thread 2's request: 0 
+
+thread 2 requested 0 times
+thread 1 waiting for resource 0
+thread 3's request: 0 
+
+thread 1 waiting for resource 0
+thread 0's request: 1 
+
+thread 0 requesting resource 0
+thread 0 waiting for resource 0
+thread 0 granted resource 0
+thread 1 waiting for resource 0
+thread 3's request: 1 
+
+thread 3 requesting resource 0
+thread 3 waiting for resource 0
+thread 3 granted resource 0
+thread 3 requested 5 times
+thread 1 waiting for resource 0
+thread 0's request: 0 
+
+thread 1 waiting for resource 0
+thread 2's request: 0 
+
+thread 2 requested 0 times
+thread 1 waiting for resource 0
+thread 3's request: 1 
+
+thread 3 requesting resource 0
+thread 3 waiting for resource 0
+thread 3 granted resource 0
+thread 1 waiting for resource 0
+thread 0's request: 1 
+
+thread 0 requesting resource 0
+thread 0 waiting for resource 0
+thread 0 granted resource 0
+thread 1 waiting for resource 0
+thread 0's request: 0 
+
+thread 1 waiting for resource 0
+thread 2's request: 0 
+
+thread 2 requested 0 times
+thread 1 waiting for resource 0
+thread 3's request: 0 
+
+thread 1 waiting for resource 0
+thread 2's request: 0 
+
+thread 2 requested 0 times
+thread 1 waiting for resource 0
+thread 2's request: 0 
+
+thread 2 requested 0 times
+thread 1 waiting for resource 0
+thread 2's request: 0 
+
+thread 2 requested 0 times
+thread 1 waiting for resource 0
+thread 0's request: 0 
+
+thread 1 waiting for resource 0
+thread 3's request: 1 
+
+thread 3 requesting resource 0
+thread 3 waiting for resource 0
+thread 3 granted resource 0
+thread 1 waiting for resource 0
+thread 2's request: 0 
+
+thread 2 requested 0 times
+thread 1 waiting for resource 0
+thread 0's request: 1 
+
+thread 0 requesting resource 0
+thread 0 waiting for resource 0
+thread 0 granted resource 0
+thread 1 waiting for resource 0
+thread 0's request: 1 
+
+thread 0 requesting resource 0
+thread 0 waiting for resource 0
+thread 0 granted resource 0
+thread 0 requested 10 times
+thread 1 waiting for resource 0
+thread 3's request: 1 
+
+thread 3 requesting resource 0
+thread 3 waiting for resource 0
+thread 3 granted resource 0
+thread 1 waiting for resource 0
+thread 2's request: 0 
+
+thread 2 requested 0 times
+thread 1 waiting for resource 0
+thread 3's request: 1 
+
+thread 3 requesting resource 0
+thread 3 waiting for resource 0
+thread 3 granted resource 0
+thread 1 waiting for resource 0
+thread 2's request: 0 
+
+thread 2 requested 0 times
+thread 1 waiting for resource 0
+thread 0's request: 0 
+
+thread 0 requested 10 times
+thread 1 waiting for resource 0
+thread 3's request: 1 
+
+thread 3 requesting resource 0
+thread 3 waiting for resource 0
+thread 3 granted resource 0
+thread 3 requested 10 times
+thread 1 waiting for resource 0
+thread 2's request: 0 
+
+thread 2 requested 0 times
+thread 1 waiting for resource 0
+thread 2's request: 0 
+
+thread 2 requested 0 times
+thread 1 waiting for resource 0
+thread 0's request: 0 
+
+thread 0 requested 10 times
+thread 1 waiting for resource 0
+thread 3's request: 1 
+
+thread 3 requesting resource 0
+thread 3 waiting for resource 0
+thread 3 granted resource 0
+thread 1 waiting for resource 0
+thread 0's request: 0 
+
+thread 0 requested 10 times
+thread 1 waiting for resource 0
+thread 2's request: 0 
+
+thread 2 requested 0 times
+thread 1 waiting for resource 0
+thread 3's request: 1 
+
+thread 3 requesting resource 0
+thread 3 waiting for resource 0
+thread 3 granted resource 0
+thread 1 waiting for resource 0
+thread 0's request: 0 
+
+thread 0 requested 10 times
+thread 1 waiting for resource 0
+thread 3's request: 0 
+
+thread 1 waiting for resource 0
+thread 2's request: 0 
+
+thread 2 requested 0 times
+thread 1 waiting for resource 0
+thread 3's request: 1 
+
+thread 3 requesting resource 0
+thread 3 waiting for resource 0
+thread 3 granted resource 0
+thread 1 waiting for resource 0
+thread 0's request: 0 
+
+thread 0 requested 10 times
+thread 1 waiting for resource 0
+thread 3's request: 1 
+
+thread 3 requesting resource 0
+thread 3 waiting for resource 0
+thread 3 granted resource 0
+thread 1 waiting for resource 0
+thread 2's request: 0 
+
+thread 2 requested 0 times
+thread 1 waiting for resource 0
+thread 2's request: 0 
+
+thread 2 requested 0 times
+thread 1 waiting for resource 0
+thread 0's request: 0 
+
+thread 0 requested 10 times
+thread 1 waiting for resource 0
+thread 3's request: 1 
+
+thread 3 requesting resource 0
+thread 3 waiting for resource 0
+thread 3 granted resource 0
+thread 3 requested 15 times
+thread 1 waiting for resource 0
+thread 2's request: 0 
+
+thread 2 requested 0 times
+thread 1 waiting for resource 0
+thread 3's request: 0 
+
+thread 3 requested 15 times
+thread 1 waiting for resource 0
+thread 3's request: 0 
+
+thread 3 requested 15 times
+thread 1 waiting for resource 0
+thread 0's request: 1 
+
+thread 0 requesting resource 0
+thread 0 waiting for resource 0
+thread 0 granted resource 0
+thread 1 waiting for resource 0
+thread 0's request: 1 
+
+thread 0 requesting resource 0
+thread 0 waiting for resource 0
+thread 0 granted resource 0
+thread 1 waiting for resource 0
+thread 2's request: 0 
+
+thread 2 requested 0 times
+thread 1 waiting for resource 0
+thread 0's request: 1 
+
+thread 0 requesting resource 0
+thread 0 waiting for resource 0
+thread 0 granted resource 0
+thread 1 waiting for resource 0
+thread 3's request: 0 
+
+thread 3 requested 15 times
+thread 1 waiting for resource 0
+thread 2's request: 0 
+
+thread 2 requested 0 times
+thread 1 waiting for resource 0
+thread 3's request: 0 
+
+thread 3 requested 15 times
+thread 1 waiting for resource 0
+thread 2's request: 0 
+
+thread 2 requested 0 times
+thread 1 waiting for resource 0
+thread 0's request: 1 
+
+thread 0 requesting resource 0
+thread 0 waiting for resource 0
+thread 0 granted resource 0
+thread 1 waiting for resource 0
+thread 3's request: 1 
+
+thread 3 requesting resource 0
+thread 3 waiting for resource 0
+thread 3 granted resource 0
+thread 1 waiting for resource 0
+thread 2's request: 0 
+
+thread 2 requested 0 times
+thread 1 waiting for resource 0
+thread 0's request: 1 
+
+thread 0 requesting resource 0
+thread 0 waiting for resource 0
+thread 0 granted resource 0
+thread 0 requested 15 times
+thread 1 waiting for resource 0
+thread 2's request: 0 
+
+thread 2 requested 0 times
+thread 1 waiting for resource 0
+thread 0's request: 0 
+
+thread 0 requested 15 times
+thread 1 waiting for resource 0
+thread 3's request: 0 
+
+thread 1 waiting for resource 0
+thread 3's request: 0 
+
+thread 1 waiting for resource 0
+thread 2's request: 0 
+
+thread 2 requested 0 times
+thread 1 waiting for resource 0
+thread 0's request: 0 
+
+thread 0 requested 15 times
+thread 1 waiting for resource 0
+thread 2's request: 0 
+
+thread 2 requested 0 times
+thread 1 waiting for resource 0
+thread 2's request: 0 
+
+thread 2 requested 0 times
+thread 1 waiting for resource 0
+thread 3's request: 1 
+
+thread 3 requesting resource 0
+thread 3 waiting for resource 0
+thread 3 granted resource 0
+thread 1 waiting for resource 0
+thread 0's request: 0 
+
+thread 0 requested 15 times
+thread 1 waiting for resource 0
+thread 2's request: 0 
+
+thread 2 requested 0 times
+thread 1 waiting for resource 0
+thread 0's request: 0 
+
+thread 0 requested 15 times
+thread 1 waiting for resource 0
+thread 3's request: 0 
+
+thread 1 waiting for resource 0
+thread 2's request: 0 
+
+thread 2 requested 0 times
+thread 1 waiting for resource 0
+thread 3's request: 0 
+
+thread 1 waiting for resource 0
+thread 3's request: 0 
+
+thread 1 waiting for resource 0
+thread 0's request: 0 
+
+thread 0 requested 15 times
+thread 1 waiting for resource 0
+thread 3's request: 0 
+
+thread 1 waiting for resource 0
+thread 2's request: 0 
+
+thread 2 requested 0 times
+thread 1 waiting for resource 0
+thread 0's request: 1 
+
+thread 0 requesting resource 0
+thread 0 waiting for resource 0
+thread 0 granted resource 0
+thread 1 waiting for resource 0
+thread 0's request: 0 
+
+thread 1 waiting for resource 0
+thread 3's request: thread 2's request: 0 
+
+1 
+
+thread 3 requesting resource 0
+thread 2 requested 0 times
+thread 1 waiting for resource 0
+thread 3 waiting for resource 0
+thread 3 granted resource 0
+thread 1 waiting for resource 0
+thread 0's request: 0 
+
+thread 1 waiting for resource 0
+thread 3's request: 0 
+
+thread 1 waiting for resource 0
+thread 2's request: 0 
+
+thread 2 requested 0 times
+thread 1 waiting for resource 0
+thread 0's request: 0 
+
+thread 1 waiting for resource 0
+thread 2's request: 0 
+
+thread 2 requested 0 times
+thread 1 waiting for resource 0
+thread 0's request: 1 
+
+thread 0 requesting resource 0
+thread 0 waiting for resource 0
+thread 0 granted resource 0
+thread 1 waiting for resource 0
+thread 2's request: 0 
+
+thread 2 requested 0 times
+thread 1 waiting for resource 0
+thread 3's request: 1 
+
+thread 3 requesting resource 0
+thread 3 waiting for resource 0
+thread 3 granted resource 0
+thread 1 waiting for resource 0
+thread 3's request: 0 
+
+thread 1 waiting for resource 0
+thread 0's request: 0 
+
+thread 1 waiting for resource 0
+thread 0's request: 0 
+
+thread 1 waiting for resource 0
+thread 0's request: 1 
+
+thread 0 requesting resource 0
+thread 0 waiting for resource 0
+thread 0 granted resource 0
+thread 1 waiting for resource 0
+thread 2's request: 0 
+
+thread 2 requested 0 times
+thread 1 waiting for resource 0
+thread 3's request: 1 
+
+thread 3 requesting resource 0
+thread 3 waiting for resource 0
+thread 3 granted resource 0
+thread 3 requested 20 times
+thread 1 waiting for resource 0
+thread 3's request: 0 
+
+thread 3 requested 20 times
+thread 1 waiting for resource 0
+thread 2's request: 0 
+
+thread 2 requested 0 times
+thread 1 waiting for resource 0
+thread 3's request: 1 
+
+thread 3 requesting resource 0
+thread 3 waiting for resource 0
+thread 3 granted resource 0
+thread 1 waiting for resource 0
+thread 0's request: 0 
+
+thread 1 waiting for resource 0
+thread 0's request: 1 
+
+thread 0 requesting resource 0
+thread 0 waiting for resource 0
+thread 0 granted resource 0
+thread 1 waiting for resource 0
+thread 2's request: 0 
+
+thread 2 requested 0 times
+thread 1 waiting for resource 0
+thread 3's request: 1 
+
+thread 3 requesting resource 0
+thread 3 waiting for resource 0
+thread 3 granted resource 0
+thread 1 waiting for resource 0
+thread 2's request: 0 
+
+thread 2 requested 0 times
+thread 1 waiting for resource 0
+thread 0's request: 1 
+
+thread 0 requesting resource 0
+thread 0 waiting for resource 0
+thread 0 granted resource 0
+thread 0 requested 20 times
+thread 1 waiting for resource 0
+thread 3's request: 0 
+
+thread 1 waiting for resource 0
+thread 2's request: 0 
+
+thread 2 requested 0 times
+thread 1 waiting for resource 0
+thread 0's request: 0 
+
+thread 0 requested 20 times
+thread 1 waiting for resource 0
+thread 2's request: 0 
+
+thread 2 requested 0 times
+thread 1 waiting for resource 0
+thread 3's request: 1 
+
+thread 3 requesting resource 0
+thread 3 waiting for resource 0
+thread 3 granted resource 0
+thread 1 waiting for resource 0
+thread 3's request: 0 
+
+thread 1 waiting for resource 0
+thread 0's request: 0 
+
+thread 0 requested 20 times
+thread 1 waiting for resource 0
+thread 2's request: 0 
+
+thread 2 requested 0 times
+thread 1 waiting for resource 0
+thread 3's request: 0 
+
+thread 1 waiting for resource 0
+thread 2's request: 0 
+
+thread 2 requested 0 times
+thread 1 waiting for resource 0
+thread 0's request: 1 
+
+thread 0 requesting resource 0
+thread 0 waiting for resource 0
+thread 0 granted resource 0
+thread 1 waiting for resource 0
+thread 0's request: 0 
+
+thread 1 waiting for resource 0
+thread 3's request: 1 
+
+thread 3 requesting resource 0
+thread 3 waiting for resource 0
+thread 3 granted resource 0
+thread 1 waiting for resource 0
+thread 3's request: 1 
+
+thread 3 requesting resource 0
+thread 3 waiting for resource 0
+thread 3 granted resource 0
+thread 3 requested 25 times
+thread 1 waiting for resource 0
+thread 0's request: 0 
+
+thread 1 waiting for resource 0
+thread 2's request: 0 
+
+thread 2 requested 0 times
+thread 1 waiting for resource 0
+thread 0's request: 0 
+
+thread 1 waiting for resource 0
+thread 0's request: 0 
+
+thread 1 waiting for resource 0
+thread 2's request: 0 
+
+thread 2 requested 0 times
+thread 1 waiting for resource 0
+thread 3's request: 0 
+
+thread 3 requested 25 times
+thread 1 waiting for resource 0
+thread 0's request: 1 
+
+thread 0 requesting resource 0
+thread 0 waiting for resource 0
+thread 0 granted resource 0
+thread 1 waiting for resource 0
+thread 2's request: 0 
+
+thread 2 requested 0 times
+thread 1 waiting for resource 0
+thread 3's request: 1 
+
+thread 3 requesting resource 0
+thread 3 waiting for resource 0
+thread 3 granted resource 0
+thread 1 waiting for resource 0
+thread 2's request: 0 
+
+thread 2 requested 0 times
+thread 1 waiting for resource 0
+thread 0's request: 1 
+
+thread 0 requesting resource 0
+thread 0 waiting for resource 0
+thread 0 granted resource 0
+thread 1 waiting for resource 0
+thread 2's request: 0 
+
+thread 2 requested 0 times
+thread 1 waiting for resource 0
+thread 0's request: 0 
+
+thread 1 waiting for resource 0
+thread 2's request: 0 
+
+thread 2 requested 0 times
+thread 1 waiting for resource 0
+thread 3's request: 0 
+
+thread 1 waiting for resource 0
+thread 3's request: 1 
+
+thread 3 requesting resource 0
+thread 3 waiting for resource 0
+thread 3 granted resource 0
+thread 1 waiting for resource 0
+thread 0's request: 0 
+
+thread 1 waiting for resource 0
+^C
+bash-3.2$ exit
+exit
+
+Script done on Wed Apr 28 23:43:43 2021
