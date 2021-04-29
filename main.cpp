@@ -148,7 +148,7 @@ void makeRequest(int tid, int rid) {
   printf("thread %i requesting resource %i\n", tid, rid);
    // auto unlocked once out of scope
   std::unique_lock<std::mutex> lk(lock);
-  cv.wait(lk, [&]{
+  cv.wait(lk, [&]{ // passing callback is equivalet to putting this in a while loop
     printf("thread %i waiting for resource %i\n", tid, rid);
     return wouldBeSafe(tid, rid);
   });
@@ -194,7 +194,6 @@ int main(int argc, char** argv) {
     std::cout << "Invalid Args\n" << e.what() << std::endl;
     return -1;
   }
-
   initialize();  
   std::cout << "initialized\n";
   printArray(capacity);
@@ -213,11 +212,6 @@ int main(int argc, char** argv) {
   for(int i = 0; i < N; i++) threads[i].join();
   return 0;
 }
-
-
-
-
-
 
 
 
