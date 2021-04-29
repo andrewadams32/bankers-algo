@@ -7,6 +7,7 @@
 #include<vector>
 #include<mutex>
 #include<condition_variable>
+#include<cassert>
 
 //maximum capacity for any resource type
 static const int MaxCapacity = 6;
