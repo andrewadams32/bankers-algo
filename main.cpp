@@ -10,7 +10,7 @@
 #include<cassert>
 
 //maximum capacity for any resource type
-static const int MaxCapacity = 6;
+static const int MaxCapacity = 11;
 
 int N; // number of threads
 int M; // number of resources
@@ -72,7 +72,7 @@ void initialize() {
 
 void createRandomRequest(int tid) {
   for(int i = 0; i < M; i++) {
-    request[tid][i] = max[tid][i] == 0 ? 0 : rand() % max[tid][i];
+    request[tid][i] = max[tid][i] == 0 ? 0 : rand() % (max[tid][i] + 1);
   }
   printf("thread %i's request: ", tid);
   printArray(request[tid]);
